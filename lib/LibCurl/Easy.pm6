@@ -180,6 +180,7 @@ my %opts =
     ftp-use-epsv         => (CURLOPT_FTP_USE_EPSV,         CURLOPT_LONG     ),
     ftpport              => (CURLOPT_FTPPORT,              CURLOPT_STR      ),
     header               => (CURLOPT_HEADER,               CURLOPT_BOOL     ),
+    http09-allowed       => (CURLOPT_HTTP09_ALLOWED,       CURLOPT_LONG     ),
     http-version         => (CURLOPT_HTTP_VERSION,         CURLOPT_LONG     ),
     httpauth             => (CURLOPT_HTTPAUTH,             CURLOPT_LONG     ),
     httpget              => (CURLOPT_HTTPGET,              CURLOPT_BOOL     ),
